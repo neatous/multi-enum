@@ -1,0 +1,35 @@
+{
+  "name": "neatous/multi-enum",
+  "type": "library",
+  "description": "Multi enum support for the PHP 8.1+ enums.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Neatous, a.s.",
+      "email": "it@neatous.cz"
+    }
+  ],
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.9",
+    "phpunit/phpunit": "^9.5",
+    "slevomat/coding-standard": "^8.6",
+    "squizlabs/php_codesniffer": "^3.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "": [
+        "src",
+        "tests"
+      ]
+    }
+  }
+}
